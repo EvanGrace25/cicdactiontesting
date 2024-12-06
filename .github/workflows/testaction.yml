@@ -12,3 +12,8 @@ jobs:
       - name: Print Hello test
         run: |
           echo "Hello World"
+      - name: Test Pre-defined action
+        uses: EvanGrace25/10ble-was-cicd-action@main
+        with:
+          access_key: ${{ secrets.ACCESS_KEY }}
+          secret_key: ${{ secrets.SECRET_KEY }}
