@@ -11,3 +11,5 @@ Trigger build to try and get petstore to run
 Update to test getting artifact, or at least seeing if it runs or throws an error
 
 First artifact worked. Now there is a default to include troubleshooting logs as well as an artifact. 
+
+Updating to trigger
