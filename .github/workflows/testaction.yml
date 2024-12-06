@@ -1,0 +1,13 @@
+name: CI WAS Scan
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+jobs:
+  tenablescan:
+    name: was-cicd-testing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello test
+          run: print("Hello World")
