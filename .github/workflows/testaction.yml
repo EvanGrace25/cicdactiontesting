@@ -18,4 +18,4 @@ jobs:
           access_key: ${{ secrets.ACCESS_KEY }}
           secret_key: ${{ secrets.SECRET_KEY }}
           link_container: petstore
-          use_petstore_example: false
+          use_petstore_example: true
