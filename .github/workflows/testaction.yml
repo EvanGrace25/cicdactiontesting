@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Print Hello test
         run: |
-          echo("Hello World")
+          echo "Hello World"
